@@ -2840,6 +2840,9 @@ input[type=number] {
 .iknow_tm_copyright .right ul li:last-child{
 	margin-right: 0px;
 }
+.social_mobail{
+	display: none;
+}
 .iknow_tm_copyright .right ul li a{
 	text-decoration: none;
 	color: #888;
@@ -3036,6 +3039,9 @@ input[type=number] {
 	box-shadow: 7px 7px 72px rgba(108,99,255,.1);
 	padding: 70px;
 	margin-top: 25px;
+}
+#ret{
+	display: none;
 }
 .iknow_tm_extra_menu .list_in .list_icon,
 .iknow_tm_extra_menu .list_in .down_icon{
@@ -5104,6 +5110,27 @@ input[type=number] {
 	}
 	body{
 		height: 1000px;
+	}
+	.image{
+		display: none;
+	}
+	#ret{
+		display: block;
+		position: fixed;
+		top: 500px;
+		z-index: 10;
+		right: 40px;
+		
+	}
+	#shj{
+		width: 40px;
+	}
+	.social_mobail{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin: 30px;
 	}
 	.iknow_tm_modalbox .close{margin-left: 0px;left: auto;right: 0px;top: -35px;}
 	
