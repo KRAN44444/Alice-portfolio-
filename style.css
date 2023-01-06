@@ -1388,17 +1388,10 @@ body.dark .loader_line:after{
 }
 .iknow_tm_main_section.active{
 	display: block;
-	-webkit-animation: slide-down .7s ease;
-    -moz-animation: slide-down .7s ease;
+	
 }
-@-webkit-keyframes slide-down {
-      0% { -webkit-transform: translateY(30px); }   
-    100% {  -webkit-transform: translateY(0); }
-}
-@-moz-keyframes slide-down {
-      0% {  -moz-transform: translateY(30px); }   
-    100% {  -moz-transform: translateY(0); }
-}
+
+
 .iknow_tm_about{
 	width: 100%;
 	height: auto;
@@ -2749,9 +2742,7 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
-}
+
 .iknow_tm_contact .message_area{
 	width: 100%;
 	float: left;
